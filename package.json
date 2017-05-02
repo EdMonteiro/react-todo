@@ -1,5 +1,5 @@
 {
-  "name": "react-todo",
+  "name": "boilerplate",
   "version": "1.0.0",
   "description": "Simple react app",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "karma start",
     "start": "node server.js"
   },
-  "author": "Ed Monteiro",
+  "author": "Andrew Mead",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
@@ -37,7 +37,7 @@
     "mocha": "^2.4.5",
     "moment": "^2.12.0",
     "node-sass": "^3.4.2",
-    "node-uuid": "^1.4.8",
+    "node-uuid": "^1.4.7",
     "sass-loader": "^3.1.2",
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",

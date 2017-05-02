@@ -1,18 +1,32 @@
-var person = ["Andy", 25];
-var personTwo = ["Jen", 29];
+// function add (a, b) {
+//   return a + b;
+// }
+//
+// console.log(add(3, 1));
+//
+// var toAdd = [9, 5];
+// console.log(add(...toAdd));
 
-function people(name, age) {
-    console.log("Hi " + name + " you are " + age)
-};
+// var groupA = ['Jen', 'Cory'];
+// var groupB = ['Vikram'];
+// var final = [...groupB, 3, ...groupA];
+//
+// console.log(final);
 
-people(...person);
-people(...personTwo);
+var person = ['Andrew', 25];
+var personTwo = ['Jen', 29];
+// Hi Andrew, you are 25
 
-//second challenge
+function greet (name, age) {
+  console.log('Hi ' + name + ', you are ' + age);
+}
+greet(...person);
+greet(...personTwo);
 
-var names = ["Mike", "Ben"];
-var final = ["Andrew", ...names];
+var names = ['Mike', 'Ben'];
+var final = ['Andrew', ...names];
+// Hi Andrew
 
-final.forEach(function(obj) {
-    console.log("Hi " + obj);
+final.forEach(function (name) {
+  console.log('Hi ' + name);
 });
